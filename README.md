@@ -17,7 +17,10 @@ A aplicação Bytebank é um sistema bancário simples desenvolvido em Java, uti
 ## Executando a Aplicação
 
 1. Clone o repositório.
-2. Configure as variáveis de ambiente no arquivo `.env`.
+2. Configure as variáveis de ambiente diretamente no seu sistema operacional:
+    - `DB_JDBC_URL`: URL de conexão JDBC do banco de dados.
+    - `DB_USERNAME`: Nome de usuário do banco de dados.
+    - `DB_PASSWORD`: Senha do banco de dados.
 3. Execute a aplicação através da classe `BytebankApplication`.
 
 ## Dependências
